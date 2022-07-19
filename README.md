@@ -1,41 +1,35 @@
 # Practice
- Java-OOP
+ ### Java-OOP
  
-## Authors
-
-- [Vu Duc Thanh](https://www.github.com/vuducthanh0115)
+## Authors : [Vu Duc Thanh](https://www.github.com/vuducthanh0115)
 ## Bài 1
-Một đơn vị sản xuất gồm có các cán bộ là công nhân, kỹ sư, nhân viên. Mỗi cán bộ cần quản lý các dữ liệu: Họ tên, tuổi, giới tính(name, nữ, khác), địa chỉ.
-Cấp công nhân sẽ có thêm các thuộc tính riêng: Bậc (1 đến 10).
-Cấp kỹ sư có thuộc tính riêng: Nghành đào tạo.
-Các nhân viên có thuộc tính riêng: công việc.
-Yêu cầu 1: Xây dựng các lớp CongNhan, KySu, NhanVien kế thừa từ lớp CanBo.
-Yêu cầu 2: Xây dựng lớp QLCB(quản lý cán bộ) cài đặt các phương thức thực hiện các chức năng sau:
-Thêm mới cán bộ.
-Tìm kiếm theo họ tên.
-Hiện thị thông tin về danh sách các cán bộ.
-Thoát khỏi chương trình.
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai1)
+Một đơn vị sản xuất gồm có các cán bộ là công nhân, kỹ sư, nhân viên. Mỗi cán bộ cần quản lý các dữ liệu: Họ tên, tuổi, giới tính(name, nữ, khác), địa chỉ.  
+Cấp công nhân sẽ có thêm các thuộc tính riêng: Bậc (1 đến 10).  
+Cấp kỹ sư có thuộc tính riêng: Nghành đào tạo.  
+Các nhân viên có thuộc tính riêng: công việc.  
+Yêu cầu 1: Xây dựng các lớp CongNhan, KySu, NhanVien kế thừa từ lớp CanBo.  
+Yêu cầu 2: Xây dựng lớp QLCB(quản lý cán bộ) cài đặt các phương thức thực hiện các chức năng sau:  
+- Thêm mới cán bộ.  
+- Tìm kiếm theo họ tên.  
+- Hiện thị thông tin về danh sách các cán bộ.  
+- Thoát khỏi chương trình.  
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai1)
 
 ## Bài 2
-Một thư viện cần quản lý các tài liệu bao gồm Sách, Tạp chí, Báo. Mỗi tài liệu gồm có các thuộc tính sau: Mã tài liệu(Mã tài liệu là duy nhất), Tên nhà xuất bản, số bản phát hành.
+Một thư viện cần quản lý các tài liệu bao gồm Sách, Tạp chí, Báo. Mỗi tài liệu gồm có các thuộc tính sau: Mã tài liệu(Mã tài liệu là duy nhất), Tên nhà xuất bản, số bản phát hành.  
+Các loại sách cần quản lý thêm các thuộc tính: tên tác giả, số trang.  
+Các tạp chí cần quản lý thêm: Số phát hành, tháng phát hành.  
+Các báo cần quản lý thêm: Ngày phát hành.  
+Yêu cầu 1: Xây dựng các lớp để quản lý tài liệu cho thư viện một cách hiệu quả.  
 
-Các loại sách cần quản lý thêm các thuộc tính: tên tác giả, số trang.
+Yêu cầu 2: Xây dựng lớp QuanLySach có các chức năng sau  
 
-Các tạp chí cần quản lý thêm: Số phát hành, tháng phát hành.
-
-Các báo cần quản lý thêm: Ngày phát hành.
-
-Yêu cầu 1: Xây dựng các lớp để quản lý tài liệu cho thư viện một cách hiệu quả.
-
-Yêu cầu 2: Xây dựng lớp QuanLySach có các chức năng sau
-
-Thêm mới tài liêu: Sách, tạp chí, báo.
-Xoá tài liệu theo mã tài liệu.
-Hiện thị thông tin về tài liệu.
-Tìm kiếm tài liệu theo loại: Sách, tạp chí, báo.
-Thoát khỏi chương trình.
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai2)
+Thêm mới tài liêu: Sách, tạp chí, báo.  
+Xoá tài liệu theo mã tài liệu.  
+Hiện thị thông tin về tài liệu.  
+Tìm kiếm tài liệu theo loại: Sách, tạp chí, báo.  
+Thoát khỏi chương trình.  
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai2)  
 
 ## Bài 3
 Các thí sinh dự thi đại học bao gồm các thí sinh thi khối A, B, và khối C. Các thí sinh cần quản lý các thông tin sau: Số báo danh, họ tên, địa chỉ, mức ưu tiên.
@@ -50,14 +44,14 @@ Yêu cầu 1: Xây dựng các lớp để quản lý các thi sinh dự thi đ�
 
 Yêu cầu 2: Xây dựng lớp TuyenSinh có các chức năng:
 
-Thêm mới thí sinh.
-Hiện thị thông tin của thí sinh và khối thi của thí sinh.
-Tìm kiếm theo số báo danh.
-Thoát khỏi chương trình.
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai3)
+Thêm mới thí sinh.  
+Hiện thị thông tin của thí sinh và khối thi của thí sinh.  
+Tìm kiếm theo số báo danh.  
+Thoát khỏi chương trình.  
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai3)
 
 ## Bài 4
-Để quản lý các hộ dân cư trong một khu phố, người ta cần các thông tin sau: Số thành viên trong gia đình, Số nhà, thông tin mỗi cá nhân trong gia đình. Với mỗi cá nhân, người ta quản lý các thông tin sau: Họ tên, Tuổi, Nghề nghiệp, số chứng minh nhân dân(duy nhất cho mỗi người).
+Để quản lý các hộ dân cư trong một khu phố, người ta cần các thông tin sau: Số thành viên trong gia đình, Số nhà, thông tin mỗi cá nhân trong gia đình. Với mỗi cá nhân, người ta quản lý các thông tin sau: Họ tên, Tuổi, Nghề nghiệp, số chứng minh nhân dân(duy nhất cho mỗi người).  
 
 Yêu cầu 1: Hãy xây dựng lớp Nguoi để quản lý thông tin của mỗi cá nhân.
 
@@ -67,7 +61,7 @@ Yêu cầu 2: Xây dựng lớp KhuPho để quản lý các thông tin của t�
 
 Yêu cầu 3: Nhập n hộ dân. (n nhập từ bàn phím), hiển thị thông tin của các hộ trong khu phố.
 
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai4)
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai4)
 
 ## Bài 5
 Để quản lý khách hàng đến thuê phòng của một khách sạn, người ta cần các thông tin sau: Số ngày thuê, loại phòng, thông tin cá nhân của những người thuê phòng.
@@ -82,7 +76,7 @@ Yêu cầu 2: Xây dựng lớp KhachSan để quản lý các thông tin về c
 
 Yêu cầu 3: Xây dựng các phương thức thêm mới, xoá khách theo số chứng minh nhân dân. Tính tiền thuê phòng cho khách(xác định khách bằng số chứng minh nhân dân) dựa vào công thức: (số ngày thuê * giá của từng loại phòng)
 
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai5)
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai5)
 
 ## Bài 6
 Để quản lý hồ sơ học sinh của trường THPT nhà trường cần các thông tin sau: Lớp,  và các thông tin về cá nhân của mỗi học sinh.
@@ -98,7 +92,7 @@ Yêu cầu 3: Cài đặt chương trình có các chức năng sau:
 Thêm học sinh mới.
 Hiện thị các học sinh 20 tuổi.
 Cho biết số lượng các học sinh có tuổi là 23 và quê ở DN.
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai6)
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai6)
 
 ## Bài 7
 Khoa CNTT – DHKHTN cần quản lý việc thanh toán tiền lương cho các cán bộ giá viên trong khoa. Để quản lý được, khoa cần các thông tin sau:
@@ -113,7 +107,7 @@ Yêu cầu 3: Xây dựng các phương thức thêm, xoá các cán bộ giáo 
 
 Yêu cầu 4: Tính lương thực lĩnh cho giáo viên: Lương thực = Lương cứng + lương thưởng – lương phạt.
 
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai7)
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai7)
 
 ## Bài 8
 Thư viện trung tâm đại học quốc gia có nhu cầu quản lý việc mượn, trả sách. Sinh viên đăng ký tham gia mượn sách thông qua thẻ mà thư viện cung cấp.
@@ -128,7 +122,7 @@ Yêu cầu 2: Xây dựng lớp TheMuon để quản lý việc mượn trả s�
 
 Yêu cầu 3: Xây dựng các phương thức: Thêm, xoá theo mã phiếu mượn và hiển thị thông tin các thẻ mượn.
 
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai8)
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai8)
 
 ## Bài 9
 Bài tập tự luyện
@@ -144,9 +138,9 @@ Yêu cầu 2: Xây dựng lớp BienLai để quản lý việc sử dụng và 
 Yêu cầu 3: Xây dựng các phương thức thêm, xoá sửa các thông tin riêng của mỗi hộ sử dụng điện.
 
 Yêu cầu 4: Viết phương thức tính tiền điện cho mỗi hộ gia đình theo công thức: (số mới – số cũ ) * 5.
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai9)
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai9)  
+
 ## Bài 10
-Bài tập tự luyện
 
 Để xử lý văn bản người ta xây dựng lớp VanBan  có thuộc tính riêng là một xâu ký tự.
 
@@ -159,40 +153,42 @@ Yêu cầu 3: Xây dựng phương thức đếm số lượng ký tự A( khôn
 Yêu cầu 4: Chuẩn hoá văn bản theo tiêu chuẩn sau: Ở đầu và cuối sâu không có ký tự trống, ở giữa sâu không có 2 hoặc nhiều hơn các ký tự khoảng trắng kiền kề nhau.
 [Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai10)
 ## Bài 11
-Xây dựng lớp SoPhuc có các thuộc tính PhanThuc, PhanAo kiểu double.
-Yêu cầu 1: Xây dựng các phương thức tạo lập
-Yêu cầu 2: Xây dựng các phương thức:
-Nhập một số phức.
-Hiện thị số phức.
-Cộng 2 số phức.
-Nhân 2 số phức.
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai11)
-## Bài 12
-Nghành công an cần quản lý các phương tiện giao thông gồm: ô tô, xe máy, xe tải. Mỗi loại gồm các thông tin: ID, Hãng sản xuất, năm sản xuất, giá bán và màu xe.
-Các ô tô có các thuộc tính riêng: số chỗ ngồi, kiểu động cơ.
-Các xe máy có các thuộc tính riêng: công xuất.
-Xe tải cần quản lý thêm: Trọng tải.
-Yêu cầu 1: Xây dựng các lớp để quản lý các phương tiện trên sao cho hiệu quả.
-Yêu cầu 2: Xây dựng lớp QLPTGT có các chức năng:
-Thêm, xoá(theo ID) các phương tiện thuộc các loại trên.
-Tìm phương tiện theo hãng sản xuất, màu.
-Thoát chương trình.
-## Bài 13
-Phần mềm quản lý nhân viên của công ty được mô tả nghiệp vụ như sau:
-Mỗi nhân viên (Employee) được công ty chia thành 3 loại sau: Nhân viên có kinh nghiệm lâu năm (Experience), nhân viên mới ra trường (Fresher) , Nhân viên thực tập (Intern)
-            Tất cả các Employee đều có các thuộc tính là: ID, FullName, BirthDay,Phone, Email, Employee_type,Employee_count và phương thức là ShowInfo để hiển thị thông tin của nhân viên đó (hiển thị thông tin nhân viên ra màn hình console).
-                        Trong đó :
-Employee_typecó giá trị tương ứng là 0: Experience, 1: Fresher , 2: Intern  (tùy vào người dùng nhập vào ứng viên loại nào)
+Xây dựng lớp SoPhuc có các thuộc tính PhanThuc, PhanAo kiểu double.  
+Yêu cầu 1: Xây dựng các phương thức tạo lập  
+Yêu cầu 2: Xây dựng các phương thức:  
+Nhập một số phức.  
+Hiện thị số phức.  
+Cộng 2 số phức.  
+Nhân 2 số phức.  
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai11)  
 
- Employee_count dùng để người dùng đếm số lượng nhân viên trong một đợt người dùng nhập nhân viên mới  vào cơ sở dữ liệu. (mỗi lần người dùng nhập thêm mới nhân viên thì thuộc tính Employee_count của class Employee sẽ tăng lên 1)
+## Bài 12  
+Nghành công an cần quản lý các phương tiện giao thông gồm: ô tô, xe máy, xe tải. Mỗi loại gồm các thông tin: ID, Hãng sản xuất, năm sản xuất, giá bán và màu xe.  
+Các ô tô có các thuộc tính riêng: số chỗ ngồi, kiểu động cơ.  
+Các xe máy có các thuộc tính riêng: công xuất.  
+Xe tải cần quản lý thêm: Trọng tải.  
+Yêu cầu 1: Xây dựng các lớp để quản lý các phương tiện trên sao cho hiệu quả.  
+Yêu cầu 2: Xây dựng lớp QLPTGT có các chức năng:  
+Thêm, xoá(theo ID) các phương tiện thuộc các loại trên.  
+Tìm phương tiện theo hãng sản xuất, màu.  
+Thoát chương trình.  
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai12)
+## Bài 13  
+Phần mềm quản lý nhân viên của công ty được mô tả nghiệp vụ như sau:  
+Mỗi nhân viên (Employee) được công ty chia thành 3 loại sau: Nhân viên có kinh nghiệm lâu năm (Experience), nhân viên mới ra trường (Fresher) , Nhân viên thực tập (Intern)  
+            Tất cả các Employee đều có các thuộc tính là: ID, FullName, BirthDay,Phone, Email, Employee_type,Employee_count và phương thức là ShowInfo để hiển thị thông tin của nhân viên đó (hiển thị thông tin nhân viên ra màn hình console).  
+                        Trong đó :  
+Employee_typecó giá trị tương ứng là 0: Experience, 1: Fresher , 2: Intern  (tùy vào người dùng nhập vào ứng viên loại nào)  
 
-Ngoài ra :
+ Employee_count dùng để người dùng đếm số lượng nhân viên trong một đợt người dùng nhập nhân viên mới  vào cơ sở dữ liệu. (mỗi lần người dùng nhập thêm mới nhân viên thì thuộc tính Employee_count của class Employee sẽ tăng lên 1)  
 
-            Đối với nhân viên Experience có thêm thuộc tính: Số năm kinh nghiệm (ExpInYear), Kỹ năng chuyên môn (ProSkill)
+Ngoài ra :  
+
+            Đối với nhân viên Experience có thêm thuộc tính: Số năm kinh nghiệm (ExpInYear), Kỹ năng chuyên môn (ProSkill)  
 
             Đối với nhân viênn Fresher có thêm thuộc tính: Thời gian tốt nghiệp(Graduation_date), Xếp loại tốt nghiệp (Graduation_rank) , Trường tốt nghiệp (Education)
 
-            Đối với nhân viên Intern có thêm thuộc tính: Chuyên ngành đang học (Majors), Học kì đang học (Semester), Tên trường đang học (University_name)
+            Đối với nhân viên Intern có thêm thuộc tính: Chuyên ngành đang học (Majors), Học kì đang học (Semester), Tên trường đang học (University_name)  
 
 Lưu ý: Tùy mỗi loại nhân viên, phương thức showMe sẽ được bổ sung thêm các thuộc tính của riêng loại nhân viên đó.
 
@@ -217,6 +213,7 @@ Tạo ra các BirthDayException, PhoneException, EmailException, FullNameExcepti
 Source code tham khảo: Employee Management
 
 Note: Do nhiều bạn hỏi quá nên mình để bản mẫu ở đây, các bạn lưu ý đây không phải bài giải hoàn chỉnh nhưng nó chứa đầy đủ ý để các bạn có hướng giải quyết cho bài này. Chúc các bạn thành công!
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai13)  
 
 ## Bài 14
 Viết chương trình quản lý việc tuyển sinh viên sau khi tốt nghiệp đại học.
@@ -253,6 +250,7 @@ Nếu số lượng ứng viên là sinh viên khá giỏi có nhiều hơn số
 Nếu số lượng ứng viên là sinh viên khá giỏi ít hơn hoặc bằng số lượng cần tuyển thì nhận hết sinh viên khá giỏi.
 Sau khi tuyển hết ứng viên khá giỏi, nếu vẫn chưa đủ số lượng cần tuyển, chương trình sẽ lấy ứng viên trung bình. Các ứng viên trung bình được xét ưu tiên theo điểm thi đầu vào, nếu điểm thi đầu vào bằng nhau thì xét đến điểm TOEIC. Nếu xuất hiện ứng viên trung bình có cùng điểm TOEIC thì xét ưu tiên theo họ tên.
 Yêu cầu 4: Chương trình có thể hiển thị được thông tin họ tên và số điện thoại của tất cả các sinh viên đã nhập vào hệ thống (yêu cầu dùng collection sort để sắp xếp giảm dần theo fullName và tăng dần theo phoneNumber đối với sinh viên trước khi hiển thị).
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai14)  
 
 ## Bài 15
 Xây dựng chương trình quản lý kết quả học tập của sinh viên tại một trường đại học. Có 2 loại sinh viên là sinh viên chính quy và sinh viên tại chức với các thông tin giống nhau: mã sinh viên, họ tên, ngày tháng năm sinh, năm vào học, điểm đầu vào và danh sách kết quả học tập. Sinh viên tại chức có thêm thông tin nơi liên kết đào tạo(Đồng Nai, Cà Mau, …). Khoa gồm có các thông tin: tên khoa và danh sách sinh viên đang theo học. Kết quả học tập gồm có tên học kỳ, điểm trung bình học kỳ đó.
@@ -282,3 +280,4 @@ kỳ nào)
 năm vào học (sử dụng interface Comparable hoặc Comparator)
 Ở mỗi khoa, thống kê số lượng sinh viên theo năm vào học. Ví dụ 2020: 100,
 2019: 90, 2018: 120.
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai15)
