@@ -22,13 +22,12 @@ Các tạp chí cần quản lý thêm: Số phát hành, tháng phát hành.
 Các báo cần quản lý thêm: Ngày phát hành.  
 Yêu cầu 1: Xây dựng các lớp để quản lý tài liệu cho thư viện một cách hiệu quả.  
 
-Yêu cầu 2: Xây dựng lớp QuanLySach có các chức năng sau  
-
-Thêm mới tài liêu: Sách, tạp chí, báo.  
-Xoá tài liệu theo mã tài liệu.  
-Hiện thị thông tin về tài liệu.  
-Tìm kiếm tài liệu theo loại: Sách, tạp chí, báo.  
-Thoát khỏi chương trình.  
+Yêu cầu 2: Xây dựng lớp QuanLySach có các chức năng sau:  
+- Thêm mới tài liêu: Sách, tạp chí, báo.  
+- Xoá tài liệu theo mã tài liệu.  
+- Hiện thị thông tin về tài liệu.  
+- Tìm kiếm tài liệu theo loại: Sách, tạp chí, báo.  
+- Thoát khỏi chương trình.  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai2)  
 
 ## Bài 3
@@ -44,10 +43,10 @@ Yêu cầu 1: Xây dựng các lớp để quản lý các thi sinh dự thi đ�
 
 Yêu cầu 2: Xây dựng lớp TuyenSinh có các chức năng:
 
-Thêm mới thí sinh.  
-Hiện thị thông tin của thí sinh và khối thi của thí sinh.  
-Tìm kiếm theo số báo danh.  
-Thoát khỏi chương trình.  
+- Thêm mới thí sinh.  
+- Hiện thị thông tin của thí sinh và khối thi của thí sinh.  
+- Tìm kiếm theo số báo danh.  
+- Thoát khỏi chương trình.  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai3)
 
 ## Bài 4
@@ -89,9 +88,9 @@ Yêu cầu 2: Xây dựng các phương thức thêm, hiển thị thông tin c�
 
 Yêu cầu 3: Cài đặt chương trình có các chức năng sau:
 
-Thêm học sinh mới.
-Hiện thị các học sinh 20 tuổi.
-Cho biết số lượng các học sinh có tuổi là 23 và quê ở DN.
+- Thêm học sinh mới.
+- Hiện thị các học sinh 20 tuổi.
+- Cho biết số lượng các học sinh có tuổi là 23 và quê ở DN.
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai6)
 
 ## Bài 7
@@ -125,7 +124,6 @@ Yêu cầu 3: Xây dựng các phương thức: Thêm, xoá theo mã phiếu mư
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai8)
 
 ## Bài 9
-Bài tập tự luyện
 
 Để quản lý biên lai thu tiền điện, người ta cần các thông tin sau:
 
@@ -137,7 +135,7 @@ Yêu cầu 2: Xây dựng lớp BienLai để quản lý việc sử dụng và 
 
 Yêu cầu 3: Xây dựng các phương thức thêm, xoá sửa các thông tin riêng của mỗi hộ sử dụng điện.
 
-Yêu cầu 4: Viết phương thức tính tiền điện cho mỗi hộ gia đình theo công thức: (số mới – số cũ ) * 5.
+Yêu cầu 4: Viết phương thức tính tiền điện cho mỗi hộ gia đình theo công thức: (số mới – số cũ ) * 5.  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai9)  
 
 ## Bài 10
@@ -150,16 +148,17 @@ Yêu cầu 2: Xây dựng phương thức đếm số từ của văn bản.
 
 Yêu cầu 3: Xây dựng phương thức đếm số lượng ký tự A( không phân biệt hoa thường) của văn bản.
 
-Yêu cầu 4: Chuẩn hoá văn bản theo tiêu chuẩn sau: Ở đầu và cuối sâu không có ký tự trống, ở giữa sâu không có 2 hoặc nhiều hơn các ký tự khoảng trắng kiền kề nhau.
-[Source code tham khảo](https://github.com/vuducthanh0115/Practice/tree/main/src/bai10)
+Yêu cầu 4: Chuẩn hoá văn bản theo tiêu chuẩn sau: Ở đầu và cuối sâu không có ký tự trống, ở giữa sâu không có 2 hoặc nhiều hơn các ký tự khoảng trắng kiền kề nhau.  
+[Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai10)  
+
 ## Bài 11
 Xây dựng lớp SoPhuc có các thuộc tính PhanThuc, PhanAo kiểu double.  
 Yêu cầu 1: Xây dựng các phương thức tạo lập  
 Yêu cầu 2: Xây dựng các phương thức:  
-Nhập một số phức.  
-Hiện thị số phức.  
-Cộng 2 số phức.  
-Nhân 2 số phức.  
+- Nhập một số phức.  
+- Hiện thị số phức.  
+- Cộng 2 số phức.  
+- Nhân 2 số phức.  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai11)  
 
 ## Bài 12  
@@ -169,9 +168,9 @@ Các xe máy có các thuộc tính riêng: công xuất.
 Xe tải cần quản lý thêm: Trọng tải.  
 Yêu cầu 1: Xây dựng các lớp để quản lý các phương tiện trên sao cho hiệu quả.  
 Yêu cầu 2: Xây dựng lớp QLPTGT có các chức năng:  
-Thêm, xoá(theo ID) các phương tiện thuộc các loại trên.  
-Tìm phương tiện theo hãng sản xuất, màu.  
-Thoát chương trình.  
+- Thêm, xoá(theo ID) các phương tiện thuộc các loại trên.  
+- Tìm phương tiện theo hãng sản xuất, màu.  
+- Thoát chương trình.  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai12)
 ## Bài 13  
 Phần mềm quản lý nhân viên của công ty được mô tả nghiệp vụ như sau:  
@@ -181,22 +180,20 @@ Mỗi nhân viên (Employee) được công ty chia thành 3 loại sau: Nhân v
 Employee_typecó giá trị tương ứng là 0: Experience, 1: Fresher , 2: Intern  (tùy vào người dùng nhập vào ứng viên loại nào)  
 
  Employee_count dùng để người dùng đếm số lượng nhân viên trong một đợt người dùng nhập nhân viên mới  vào cơ sở dữ liệu. (mỗi lần người dùng nhập thêm mới nhân viên thì thuộc tính Employee_count của class Employee sẽ tăng lên 1)  
-
 Ngoài ra :  
+Đối với nhân viên Experience có thêm thuộc tính: Số năm kinh nghiệm (ExpInYear), Kỹ năng chuyên môn (ProSkill)  
 
-            Đối với nhân viên Experience có thêm thuộc tính: Số năm kinh nghiệm (ExpInYear), Kỹ năng chuyên môn (ProSkill)  
+Đối với nhân viênn Fresher có thêm thuộc tính: Thời gian tốt nghiệp(Graduation_date), Xếp loại tốt nghiệp (Graduation_rank) , Trường tốt nghiệp (Education)
 
-            Đối với nhân viênn Fresher có thêm thuộc tính: Thời gian tốt nghiệp(Graduation_date), Xếp loại tốt nghiệp (Graduation_rank) , Trường tốt nghiệp (Education)
-
-            Đối với nhân viên Intern có thêm thuộc tính: Chuyên ngành đang học (Majors), Học kì đang học (Semester), Tên trường đang học (University_name)  
+Đối với nhân viên Intern có thêm thuộc tính: Chuyên ngành đang học (Majors), Học kì đang học (Semester), Tên trường đang học (University_name)  
 
 Lưu ý: Tùy mỗi loại nhân viên, phương thức showMe sẽ được bổ sung thêm các thuộc tính của riêng loại nhân viên đó.
 
-** Ngoài ra mỗi nhân viên khi vào làm cần phải nộp bằng cấp nghề nghiệp đi kèm, bộ phận tuyển dụng cần quản lý các bằng cấp này. Một nhân viên có thể có nhiều bằng cấp (Certificate)
+Ngoài ra mỗi nhân viên khi vào làm cần phải nộp bằng cấp nghề nghiệp đi kèm, bộ phận tuyển dụng cần quản lý các bằng cấp này. Một nhân viên có thể có nhiều bằng cấp (Certificate)
 
 Với mỗi bằng cấp có các thông tin bao gồm : CertificatedID, CertificateName, CertificateRank, CertificatedDate.
 
-Yêu cầu
+Yêu cầu :  
 
 Hãy thiết kế và viết code của chương trình trên làm sao để tuân thủ theo đúng mô hình OOP đã học, áp dụng đầy đủ 4 tính chất : bao đóng (encapsulation) , kế thừa (inheritance) , đa hình (polymorphism) , trừu tượng (abstraction).
 Xác định và viết code constructor cho tất cả các class.
@@ -212,7 +209,7 @@ Viết chương trình tìm tất cả các nhân viên fresher.
 Tạo ra các BirthDayException, PhoneException, EmailException, FullNameException để ném ra ngoại lệ trong trường hợp birthday, email, và phone người dùng nhập vào không hợp lệ.
 Source code tham khảo: Employee Management
 
-Note: Do nhiều bạn hỏi quá nên mình để bản mẫu ở đây, các bạn lưu ý đây không phải bài giải hoàn chỉnh nhưng nó chứa đầy đủ ý để các bạn có hướng giải quyết cho bài này. Chúc các bạn thành công!
+Note: Do nhiều bạn hỏi quá nên mình để bản mẫu ở đây, các bạn lưu ý đây không phải bài giải hoàn chỉnh nhưng nó chứa đầy đủ ý để các bạn có hướng giải quyết cho bài này. Chúc các bạn thành công!  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai13)  
 
 ## Bài 14
@@ -249,7 +246,7 @@ Chương trình sẽ tự động chọn ra ứng viên phù hợp cho công ty 
 Nếu số lượng ứng viên là sinh viên khá giỏi có nhiều hơn số lượng cần tuyển thì xét ưu tiên theo điểm GPA. Nếu xuất hiện ứng viên khá giỏi có cùng điểm GPA thì xét ưu tiên theo họ tên. Vd: nếu họ tên là Nguyễn Văn A và Nguyễn Văn B thì ứng viên Nguyễn Văn A được chọn. (Giả sử không bao giờ có sinh viên có trùng họ tên nhau).
 Nếu số lượng ứng viên là sinh viên khá giỏi ít hơn hoặc bằng số lượng cần tuyển thì nhận hết sinh viên khá giỏi.
 Sau khi tuyển hết ứng viên khá giỏi, nếu vẫn chưa đủ số lượng cần tuyển, chương trình sẽ lấy ứng viên trung bình. Các ứng viên trung bình được xét ưu tiên theo điểm thi đầu vào, nếu điểm thi đầu vào bằng nhau thì xét đến điểm TOEIC. Nếu xuất hiện ứng viên trung bình có cùng điểm TOEIC thì xét ưu tiên theo họ tên.
-Yêu cầu 4: Chương trình có thể hiển thị được thông tin họ tên và số điện thoại của tất cả các sinh viên đã nhập vào hệ thống (yêu cầu dùng collection sort để sắp xếp giảm dần theo fullName và tăng dần theo phoneNumber đối với sinh viên trước khi hiển thị).
+Yêu cầu 4: Chương trình có thể hiển thị được thông tin họ tên và số điện thoại của tất cả các sinh viên đã nhập vào hệ thống (yêu cầu dùng collection sort để sắp xếp giảm dần theo fullName và tăng dần theo phoneNumber đối với sinh viên trước khi hiển thị).  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai14)  
 
 ## Bài 15
@@ -279,5 +276,5 @@ kỳ nào)
 Ở mỗi khoa, sắp xếp danh sách sinh viên tăng dần theo loại và giảm dần theo
 năm vào học (sử dụng interface Comparable hoặc Comparator)
 Ở mỗi khoa, thống kê số lượng sinh viên theo năm vào học. Ví dụ 2020: 100,
-2019: 90, 2018: 120.
+2019: 90, 2018: 120.  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai15)
