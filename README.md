@@ -1,7 +1,7 @@
 # Practice
- ### Java-OOP
+ ### Lập trình hướng đối tượng trong JAVA
+ ### MỤC LỤC  
  
-## Authors : [Vu Duc Thanh](https://www.github.com/vuducthanh0115)
 ## Bài 1
 Một đơn vị sản xuất gồm có các cán bộ là công nhân, kỹ sư, nhân viên. Mỗi cán bộ cần quản lý các dữ liệu: Họ tên, tuổi, giới tính(name, nữ, khác), địa chỉ.  
 Cấp công nhân sẽ có thêm các thuộc tính riêng: Bậc (1 đến 10).  
@@ -90,7 +90,7 @@ Yêu cầu 3: Cài đặt chương trình có các chức năng sau:
 
 - Thêm học sinh mới.
 - Hiện thị các học sinh 20 tuổi.
-- Cho biết số lượng các học sinh có tuổi là 23 và quê ở DN.
+- Cho biết số lượng các học sinh có tuổi là 23 và quê ở DN.  
 [Source code](https://github.com/vuducthanh0115/Practice/tree/main/src/bai6)
 
 ## Bài 7
@@ -224,10 +224,9 @@ Riêng sinh viên loại khá giỏi phải có thêm thông tin: điểm trung 
 Riêng sinh viên loại trung bình thì phải có thêm các thông tin: điểm TOEIC (englishScore), điểm thi đầu vào chuyên môn do công ty tổ chức thi (entryTestScore) theo thang điểm 10.
 
 Yêu cầu 1:
+Thí sinh hãy thiết kế và viết code thể hiện các class của các sinh viên và lớp học của chương trình làm sao để tuân thủ theo mô hình OOP đã học, áp dụng 4 tính chất : bao đóng (encapsulation) , kế thừa (inheritance) , đa hình (polymorphism) , trừu tượng (abstraction).
 
-            Thí sinh hãy thiết kế và viết code thể hiện các class của các sinh viên và lớp học của chương trình làm sao để tuân thủ theo mô hình OOP đã học, áp dụng 4 tính chất : bao đóng (encapsulation) , kế thừa (inheritance) , đa hình (polymorphism) , trừu tượng (abstraction).
-
-            Lưu ý: Bất kì một sinh viên nào cũng cần có một phương thức có tên là ShowMyInfor để hiển thị thông tin của sinh viên đó ra màn hình cosole, yêu cầu này là bắt buộc với các thành viên xây dựng code cho chương trình này. Bạn hãy lưu ý khi thiết kế code để thỏa mãn yêu cầu này.
+Lưu ý: Bất kì một sinh viên nào cũng cần có một phương thức có tên là ShowMyInfor để hiển thị thông tin của sinh viên đó ra màn hình cosole, yêu cầu này là bắt buộc với các thành viên xây dựng code cho chương trình này. Bạn hãy lưu ý khi thiết kế code để thỏa mãn yêu cầu này.
 
 Yêu Cầu 2 : Kiểm tra ràng buộc dữ liệu cho chương trình. Dữ liệu của các file input phải tuân thủ theo ràng buộc sau:
 
