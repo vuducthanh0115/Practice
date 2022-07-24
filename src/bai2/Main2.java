@@ -7,28 +7,30 @@ public class Main2 {
         Scanner scanner = new Scanner(System.in);
         Manager2 managerDocument = new Manager2();
         while (true) {
-            System.out.println("Quan ly tai lieu");
-            System.out.println("1: Them tai lieu");
-            System.out.println("2: Tim kiem tai lieu: ");
-            System.out.println("3: Thong tin tai lieu");
-            System.out.println("4: Xoa tai lieu theo id");
-            System.out.println("5: Thoat");
+            System.out.println("""
+                    Quan ly tai lieu
+                    1: Them tai lieu
+                    2: Tim kiem tai lieu
+                    3: Thong tin tai lieu
+                    4: Xoa tai lieu theo id
+                    0: Thoat""");
             String line = scanner.nextLine();
             switch (line) {
-                case "1": {
-                    System.out.println("a: Sach");
-                    System.out.println("b: Bao");
-                    System.out.println("c: Tap chi");
+                case "1" -> {
+                    System.out.println("""
+                            a: Sach
+                            b: Bao
+                            c: Tap chi""");
                     String type = scanner.nextLine();
                     switch (type) {
-                        case "a": {
-                            System.out.print("ID: ");
+                        case "a" -> {
+                            System.out.print("Ma : ");
                             String id = scanner.nextLine();
-                            System.out.print("NXB:");
+                            System.out.print("Nha xuat ban: ");
                             String nxb = scanner.nextLine();
-                            System.out.print("SPH: ");
+                            System.out.print("So ban phat hanh: ");
                             int number = scanner.nextInt();
-                            System.out.print("TG: ");
+                            System.out.print("Tac gia: ");
                             scanner.nextLine();
                             String author = scanner.nextLine();
                             System.out.print("So trang: ");
@@ -37,85 +39,64 @@ public class Main2 {
                             managerDocument.addDocument(book);
                             System.out.println(book.toString());
                             scanner.nextLine();
-                            break;
 
                         }
-                        case "b": {
-                            System.out.print("ID: ");
+                        case "b" -> {
+                            System.out.print("Ma: ");
                             String id = scanner.nextLine();
-                            System.out.print("NXB:");
+                            System.out.print("Nha xuat ban:");
                             String nxb = scanner.nextLine();
-                            System.out.print("SPH: ");
+                            System.out.print("So ban phat hanh: ");
                             int number = scanner.nextInt();
-                            System.out.print("Ngay PH: ");
+                            System.out.print("Ngay phat hanh: ");
                             int dayIssue = scanner.nextInt();
                             Document newspaper = new Newspaper(id, nxb, number, dayIssue);
                             managerDocument.addDocument(newspaper);
-                            System.out.println(newspaper.toString());
+                            System.out.println(newspaper);
                             scanner.nextLine();
-                            break;
                         }
-                        case "c": {
-                            System.out.print("ID: ");
+                        case "c" -> {
+                            System.out.print("Ma: ");
                             String id = scanner.nextLine();
-                            System.out.print("NXB:");
+                            System.out.print("Nha xuat ban:");
                             String nxb = scanner.nextLine();
-                            System.out.print("SPH: ");
+                            System.out.print("So ban phat hanh: ");
                             int number = scanner.nextInt();
-                            System.out.print("S : ");
+                            System.out.print("So phat hanh : ");
                             int issueNumber = scanner.nextInt();
-                            System.out.print("Thang : ");
+                            System.out.print("Thang phat hanh : ");
                             int issueMonth = scanner.nextInt();
-                            Document journal = new Magazine(id, nxb, number, issueNumber, issueMonth);
-                            managerDocument.addDocument(journal);
-                            System.out.println(journal.toString());
+                            Document magazine = new Magazine(id, nxb, number, issueNumber, issueMonth);
+                            managerDocument.addDocument(magazine);
+                            System.out.println(magazine);
                             scanner.nextLine();
-                            break;
                         }
-                        default:
-                            break;
+                        default -> {
+                        }
                     }
-                    break;
                 }
-                case "2": {
-                    System.out.println("a: sach");
-                    System.out.println("b: bao");
-                    System.out.println("c: tap chi");
-                    String choise = scanner.nextLine();
-                    switch (choise) {
-                        case "a": {
-                            managerDocument.searchByBook();
-                            break;
-                        }
-                        case "b": {
-                            managerDocument.searchByNewspaper();
-                            break;
-                        }
-                        case "c":
-                            managerDocument.searchByMagazine();
-                            break;
-                        default:
-                            System.out.println("Loi");
-                            break;
+                case "2" -> {
+                    System.out.println("a: Sach");
+                    System.out.println("b: Bao");
+                    System.out.println("c: Tap chi");
+                    String chose = scanner.nextLine();
+                    switch (chose) {
+                        case "a" -> managerDocument.searchByBook();
+                        case "b" -> managerDocument.searchByNewspaper();
+                        case "c" -> managerDocument.searchByMagazine();
+                        default -> System.out.println("Moi nhap dung lua chon");
                     }
-                    break;
                 }
-                case "3": {
-                    managerDocument.showDocument();
-                    break;
-                }
-                case "4": {
+                case "3" -> managerDocument.showDocument();
+                case "4" -> {
                     System.out.print("id: ");
                     String id = scanner.nextLine();
                     System.out.println(managerDocument.deleteDocument(id) ? "Thanh cong" : "Loi");
                 }
-                break;
-                case "5": {
+                case "0" -> {
                     return;
                 }
-                default:
-                    System.out.println("Loi");
-                    continue;
+                default -> System.out.println("Moi nhap dung lua chon");
             }
 
         }

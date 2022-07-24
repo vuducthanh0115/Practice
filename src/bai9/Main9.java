@@ -7,20 +7,22 @@ public class Main9 {
         Scanner scanner = new Scanner(System.in);
         Manager9 manager = new Manager9();
         while (true) {
-            System.out.println("Quan ly");
-            System.out.println("1: Them");
-            System.out.println("2: Xoa");
-            System.out.println("3: Thong tin");
-            System.out.println("4: Thoat");
-            System.out.print("Nhap lua chon 1->4 :");
+            System.out.println("""
+                    Quan ly
+                    1: Them
+                    2: Xoa
+                    3: Thong tin
+                    0: Thoat
+                    Nhap lua chon 1->4
+                    """);
             String line = scanner.nextLine();
             switch (line) {
-                case "1": {
+                case "1" -> {
                     System.out.print("Ten: ");
                     String name = scanner.nextLine();
                     System.out.print("Dia chi: ");
                     String address = scanner.nextLine();
-                    System.out.print("Id: ");
+                    System.out.print("Ma: ");
                     String id = scanner.nextLine();
                     Customer customer = new Customer(name, address, id);
 
@@ -30,30 +32,20 @@ public class Main9 {
                     System.out.print("So moi: ");
                     int newId = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.print("So tien phai tra: ");
-                    double paymentMoney = scanner.nextDouble();
-                    scanner.nextLine();
 
-                    Receipt receipt = new Receipt(oldId, newId, paymentMoney, customer);
+                    Receipt receipt = new Receipt(oldId, newId, customer);
                     manager.add(receipt);
-                    break;
                 }
-                case "2": {
+                case "2" -> {
                     System.out.print("Id: ");
                     String id = scanner.nextLine();
                     System.out.println(manager.delete(id) ? "Thanh cong" : "That bai");
-                    break;
                 }
-                case "3": {
-                    manager.showInfo();
-                    break;
-                }
-                case "4": {
+                case "3" -> manager.showInfo();
+                case "0" -> {
                     return;
                 }
-                default:
-                    System.out.println("Loi");
-                    continue;
+                default -> System.out.println("Loi");
             }
 
         }

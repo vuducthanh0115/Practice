@@ -6,10 +6,10 @@ public class Receipt {
     private double paymentMoney;
     private Customer customer;
 
-    public Receipt(int oldId, int newId, double paymentMoney, Customer customer) {
+    public Receipt(int oldId, int newId, Customer customer) {
         this.oldId = oldId;
         this.newId = newId;
-        this.paymentMoney = paymentMoney;
+        this.paymentMoney = (newId - oldId) * 5;
         this.customer = customer;
     }
 

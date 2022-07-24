@@ -19,6 +19,9 @@ public class Manager9 {
         this.receipts.add(receipt);
     }
 
+    /*public double paymentMoney() {
+    }*/
+
     public void showInfo() {
         receipts.forEach(o -> System.out.println(o.toString()));
     }

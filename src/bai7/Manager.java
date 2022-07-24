@@ -14,13 +14,12 @@ public class Manager {
         this.teachers.add(teacher);
     }
 
-    public boolean deleteById(String id) {
+    public void deleteById(String id) {
         Teacher teacher = this.teachers.stream().filter(t -> t.getId().equals(id)).findFirst().orElse(null);
         if (teacher == null) {
-            return false;
+            return;
         }
         this.teachers.remove(teacher);
-        return true;
     }
 
     public double getSalary(String id) {

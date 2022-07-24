@@ -7,23 +7,25 @@ public class Main7 {
         Scanner scanner = new Scanner(System.in);
         Manager manager = new Manager();
         while (true) {
-            System.out.println("Quan ly");
-            System.out.println("1: Them GV");
-            System.out.println("2: Xoa GV theo ma");
-            System.out.println("3: Luong GV theo id");
-            System.out.println("4: Thoat");
-            System.out.print("Nhap lua chon 1->4 :");
+            System.out.println("""
+                    Quan ly
+                    1: Them GV
+                    2: Xoa GV theo ma
+                    3: Luong GV theo id
+                    4: Thoat
+                    Nhap lua chon 1->4
+                    """);
             String line = scanner.nextLine();
             switch (line) {
-                case "1": {
+                case "1" -> {
                     System.out.print("Luong cung: ");
-                    Double basicSalary = scanner.nextDouble();
+                    double basicSalary = scanner.nextDouble();
                     System.out.print("Luong thuong: ");
-                    Double bonus = scanner.nextDouble();
+                    double bonus = scanner.nextDouble();
                     System.out.print("Tien phat: ");
-                    Double fine = scanner.nextDouble();
+                    double fine = scanner.nextDouble();
                     System.out.print("Luong thuc linh: ");
-                    Double realSalary = scanner.nextDouble();
+                    double realSalary = scanner.nextDouble();
                     scanner.nextLine();
                     System.out.print("Ten: ");
                     String name = scanner.nextLine();
@@ -36,27 +38,24 @@ public class Main7 {
                     String id = scanner.nextLine();
                     Teacher teacher = new Teacher(basicSalary, bonus, fine, realSalary, name, age, city, id);
                     manager.add(teacher);
-                    break;
                 }
-                case "2": {
+                case "2" -> {
                     System.out.print("Id: ");
                     String id = scanner.nextLine();
                     manager.deleteById(id);
-                    break;
                 }
-                case "3": {
+                case "3" -> {
                     System.out.print("Id: ");
                     String id = scanner.nextLine();
                     Double salary = manager.getSalary(id);
                     System.out.println(salary);
-                    break;
                 }
-                case "4": {
+                case "4" -> {
                     return;
                 }
-                default:
+                default -> {
                     System.out.println("Loi");
-                    continue;
+                }
             }
         }
     }

@@ -23,33 +23,29 @@ public class Main11 {
             System.out.print("Nhap lua chon 1->5 :");
             String line = sc.nextLine();
             switch (line) {
-                case "1": {
+                case "1" -> {
                     result = complex1.addition(complex2);
                     System.out.println("Ket qua :");
                     result.display();
-                    break;
                 }
-                case "2": {
+                case "2" -> {
                     result = complex1.subtraction(complex2);
                     System.out.println("Ket qua :");
                     result.display();
-                    break;
                 }
-                case "3": {
+                case "3" -> {
                     result = complex1.multiplication(complex2);
                     System.out.println("Ket qua :");
                     result.display();
-                    break;
                 }
-                case "4": {
+                case "4" -> {
                     result = complex1.division(complex2);
                     System.out.println("Ket qua :");
                     result.display();
-                    break;
                 }
-                default:
+                default -> {
                     System.out.println("Loi");
-                    continue;
+                }
             }
         }
     }

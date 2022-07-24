@@ -7,21 +7,23 @@ public class Main8 {
         Scanner scanner = new Scanner(System.in);
         Manager8 manager = new Manager8();
         while (true) {
-            System.out.println("Quan ly");
-            System.out.println("1: Them");
-            System.out.println("2: Xoa");
-            System.out.println("3: Thong tin");
-            System.out.println("4: Thoat");
-            System.out.print("Nhap lua chon 1->4 :");
+            System.out.println("""
+                    Quan ly
+                    1: Them
+                    2: Xoa
+                    3: Thong tin
+                    0: Thoat
+                    Nhap lua chon 1->4
+                    """);
             String line = scanner.nextLine();
             switch (line) {
-                case "1": {
+                case "1" -> {
                     System.out.print("Ten: ");
                     String name = scanner.nextLine();
                     System.out.print("Tuoi: ");
                     int age = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.print("School: ");
+                    System.out.print("Truong: ");
                     String school = scanner.nextLine();
                     Student8 student = new Student8(name, age, school);
 
@@ -38,24 +40,21 @@ public class Main8 {
                     scanner.nextLine();
                     Card card = new Card(student, id, borrowDate, paymentDate, bookID);
                     manager.add(card);
-                    break;
                 }
-                case "2": {
+                case "2" -> {
                     System.out.print("Ma: ");
                     String id = scanner.nextLine();
                     System.out.println(manager.delete(id) ? "Thanh cong" : "That bai");
-                    break;
                 }
-                case "3": {
+                case "3" -> {
                     manager.showInfo();
-                    break;
                 }
-                case "4": {
+                case "0" -> {
                     return;
                 }
-                default:
+                default -> {
                     System.out.println("Loi");
-                    continue;
+                }
             }
 
         }

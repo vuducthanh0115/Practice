@@ -7,16 +7,17 @@ public class Main5 {
         Scanner scanner = new Scanner(System.in);
         Hotel hotel = new Hotel();
         while (true) {
-            System.out.println("Quan ly");
-            System.out.println("1: Them khach");
-            System.out.println("2: Xoa khach theo CCCD");
-            System.out.println("3: Tinh tien theo CCCD");
-            System.out.println("4: Thong tin khach");
-            System.out.println("5: Thoat");
-            System.out.print("Nhap lua chon 1->5 :");
+            System.out.println("""
+                    Quan ly
+                    1: Them khach
+                    2: Xoa khach theo CCCD
+                    3: Tinh tien theo CCCD
+                    4: Thong tin khach
+                    0: Thoat
+                    Nhap lua chon 1->5""");
             String line = scanner.nextLine();
             switch (line) {
-                case "1": {
+                case "1" -> {
                     System.out.print("Ten: ");
                     String name = scanner.nextLine();
                     System.out.print("Tuoi: ");
@@ -43,30 +44,22 @@ public class Main5 {
                     Person person = new Person(name, age, passport, room, numberRent);
                     hotel.add(person);
                     scanner.nextLine();
-                    break;
                 }
-                case "2": {
+                case "2" -> {
                     System.out.print("CCCD: ");
                     String passport = scanner.nextLine();
                     hotel.delete(passport);
-                    break;
                 }
-                case "3": {
+                case "3" -> {
                     System.out.print("CCCD: ");
                     String passport = scanner.nextLine();
                     System.out.println("Tien: " + hotel.calculator(passport));
-                    break;
                 }
-                case "4": {
-                    hotel.show();
-                    break;
-                }
-                case "5": {
+                case "4" -> hotel.show();
+                case "0" -> {
                     return;
                 }
-                default:
-                    System.out.println("Loi");
-                    continue;
+                default -> System.out.println("Loi");
             }
         }
 
