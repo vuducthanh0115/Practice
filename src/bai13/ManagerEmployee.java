@@ -52,4 +52,9 @@ public class ManagerEmployee {
         this.employees.stream().filter(p -> p instanceof Fresher).forEach(e -> System.out.println(e.showInfo()));
     }
 
+    public void checkData(Employee employee) throws FullNameException {
+        Validator.nameCheck(employee.getFullName());
+    }
+
+
 }
